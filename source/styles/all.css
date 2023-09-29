@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(184, 186, 187);
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.navbar-brand>img {
+    width: 130px;
+}
+
+body {
+    font-family: Oswald, serif;
+    font-size: larger;
+    background-color: #d1d1d1;
+}
+
+/*.card{
+    box-shadow: 23px 5px 10px 1px #000000;
+
+} */
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(255, 255, 255);
+    margin: auto auto;
+}
+
+.slide-text {
+    color: #000;
+}
+
+footer {
+    background: black;
+    padding: 13px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-text {
+    font-size: x-large;
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
